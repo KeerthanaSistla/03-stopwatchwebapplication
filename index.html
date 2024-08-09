@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="SK_Logo.ico">
+    <title>Stopwatch App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header><h1>STOPWATCH</h1></header>
+    <main>
+        <div class="wrapper">
+            <div class="bar_seconds"></div>
+            <div class="number_hours"></div>
+
+            <div class="hands_box">
+                <div class="hand hours"><i></i></div>
+                <div class="hand min"><i></i></div>
+                <div class="hand sec"><i></i></div>
+            </div>
+        </div>
+        <div class="display stopwatch">00:00:00:00</div>
+    </main>
+    <div class="stopwatch">
+        <div class="controls">
+            <button id="startButton">Start</button>
+            <button id="pauseButton">Pause</button>
+            <button id="resetButton">Reset</button>
+            <button id="lapButton">Lap</button>
+            <div class="break"></div>
+            <div class="laps"><ul class="laps"></ul></div>            
+        </div>
+    </div>
+    <footer><hr><a href="https://github.com/KeerthanaSistla/03-stopwatchwebapplication">GitHub repository: 03-stopwatchwebapplication</a>
+    <script src="index.js"></script>
+</body>
+</html>
